@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f9ed;
+    font-family: Poppins;
+}
+.heading{
+    text-align: center;
+    color: #48A300;
+    font-weight: 700;
+    margin: 2.2em 0;
+    font-size: 1.5rem;
+}
+#today{
+    color: #61481C;
+}
+.main{
+    background-color: #FBFBFB;
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.main-container{
+    margin: 0 2em;
+    padding: 2em 0;
+}
+.main-heading{
+    display: flex;
+    align-items: center;
+}
+.main-heading h2{
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 0.8em;
+}
+.motivative-text{
+    font-weight: 200;
+    color: #858585;
+    margin-top: 1.5em;
+}
+.progress-bar{
+    background-color: rgba(73, 163, 0, 0.1);
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 1.2em;
+}
+.progress {
+    width: 33%;
+    height: 30px;
+    background-color: rgba(72, 163, 0, 1);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.progress p{
+    margin-left: 2em;
+    font-size: 0.8rem;
+}
+.error{
+    color: rgba(255, 81, 81, 1);
+    font-size: 0.9rem;
+    margin-top: 1.2em;
+}

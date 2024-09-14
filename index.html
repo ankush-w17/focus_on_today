@@ -28,11 +28,12 @@
         </div>
         <div class="progress-bar">
           <div class="progress">
-            <p>1/3 Completed</p>
+            <p class="hidden" id="progress-full-text"><span id="progress-text">1</span>/3 Completed</p>
           </div>
         </div>
         <div class="error">
-          <p>Please set all the 3 goals!</p>
+          <p id="all-goals-error">Please set all the 3 goals!</p>
+          <p id="no-task-error" class="hidden">Please enter task before ticking it!</p>
         </div>
         <div id="input-elements">
           <div class="input">
@@ -40,12 +41,12 @@
             <input type="text" id="text-input-1" class="text-input" placeholder="Add new goal..." />
           </div>
           <div class="input">
-            <input type="checkbox" id="checkbox-input-1" class="checkbox-input" />
-            <input type="text" id="text-input-1" class="text-input" placeholder="Add new goal..." />
+            <input type="checkbox" id="checkbox-input-2" class="checkbox-input" />
+            <input type="text" id="text-input-2" class="text-input" placeholder="Add new goal..." />
           </div>
           <div class="input">
-            <input type="checkbox" id="checkbox-input-1" class="checkbox-input" />
-            <input type="text" id="text-input-1" class="text-input" placeholder="Add new goal..." />
+            <input type="checkbox" id="checkbox-input-3" class="checkbox-input" />
+            <input type="text" id="text-input-3" class="text-input" placeholder="Add new goal..." />
           </div>
         </div>
         <div class="quote">

@@ -5,6 +5,7 @@
 body {
   background-color: #f2f9ed;
   font-family: Poppins;
+  cursor:default;
 }
 .heading {
   text-align: center;
@@ -49,7 +50,7 @@ body {
   margin-top: 1.2em;
 }
 .progress {
-  width: 33%;
+  width: 0%;
   height: 30px;
   background-color: rgba(72, 163, 0, 1);
   border-radius: 15px;
@@ -57,6 +58,7 @@ body {
   text-align: center;
   display: flex;
   align-items: center;
+  transition: width 0.3s ease-out;
 }
 .progress p {
   margin-left: 2em;
@@ -101,4 +103,7 @@ body {
     font-size: 0.7rem;
     margin-top: 5em;
     margin-bottom: 2em;
+}
+.hidden{
+    display: none;
 }

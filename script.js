@@ -18,7 +18,7 @@ inputElements.addEventListener('click', () => {
             noTaskError.classList.add('hidden');
             prog++;
         }
-        else {
+        else if(!checkbox.checked && inputText.value){
             noTaskError.classList.add('hidden');
             
         }
